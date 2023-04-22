@@ -1,0 +1,59 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+header {
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('./picture/gambar\ 4.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+        position: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+.header-content {
+        margin-bottom: 90px;
+        text-align: center;
+        color: beige;
+     }
+.header-content button{
+    color:#bebebe;
+    transition: color 1s ease;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    }
+.header-content button:hover a{
+        color: #0d0a0b;
+}
+img {
+    box-shadow: 5px 5px 20px grey;
+    padding: 7px;
+    border-radius: 50%;
+    border-color: beige;
+    border-width: 150px;
+    width: 70px;
+    height: 70px;
+}
+
+.line {
+    width: 150px;
+    height: 2px;
+    background: #ffff;
+    margin:20px auto;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+h5 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
